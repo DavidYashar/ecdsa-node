@@ -83,4 +83,22 @@ input {
 .transfer {
   display: flex;
   flex-direction: column;
+  
+}
+
+
+.message {
+  border: 2px solid #010914;
+  margin: 5px;
+  padding: 12px;
+}
+
+.message > button {
+  margin-top: 10px;
+  border: 2px solid green;
+  background-color: rgb(1, 255, 1);
+  padding: 7px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
 }
